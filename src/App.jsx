@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-        <h2 style={{fontFamily:"Georgia",textDecoration:"underline",marginBottom:"0px",marginTop:"0px"}}>Registration form</h2>
+        <h2 style={{fontFamily:"Georgia",textDecoration:"underline",textAlign:"center",marginBottom:"0px",marginTop:"0px"}}>Registration form</h2>
 
      <Form/>
     </>
