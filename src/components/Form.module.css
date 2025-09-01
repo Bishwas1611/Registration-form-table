@@ -1,0 +1,66 @@
+form {
+  max-width: 420px;
+  height: 90vh;             /* 🔹 Form fits into viewport */
+  margin: 5vh auto;         /* 🔹 Center vertically */
+  padding: 20px;
+  border-radius: 12px;
+  background: #fdfdfd;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;         /* 🔹 Scroll only inside form if needed */
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;       /* compact */
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px 10px;        /* reduced padding */
+  margin-bottom: 12px;      /* compact spacing */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  background: #fafafa;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+select:focus {
+  border-color: #6ba4ff;
+  outline: none;
+  box-shadow: 0 0 3px rgba(107, 164, 255, 0.3);
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+  transform: scale(1.05);
+}
+
+img {
+  display: block;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  max-width: 90px;          /* smaller preview */
+  height: auto;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #6ba4ff, #4c8dff);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
